@@ -1,6 +1,6 @@
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.documents import Document
-from libs.arangodb.langchain_arangodb.graphs.graph import ArangoGraph  # 경로는 실제 위치에 맞게 수정
+from langchain_arangodb.graphs import ArangoGraph  # 경로는 실제 위치에 맞게 수정
 
 class ArangoGraphRetriever(BaseRetriever):
     def __init__(self, graph: ArangoGraph, collection: str = "my_collection"):

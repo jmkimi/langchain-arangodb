@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Protocol, runtime_checkable
 
-from langchain_neo4j.graphs.graph_document import GraphDocument
+from langchain_arangodb.graphs.graph_document import GraphDocument
 
 
 @runtime_checkable
