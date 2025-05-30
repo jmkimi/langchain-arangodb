@@ -5,7 +5,7 @@ from typing import Optional, Union, Sequence
 class ArangoGraph:
     def __init__(
         self,
-        db_name: str = "test",
+        db_name: str = "_system",
         username: str = "root",
         password: Optional[str] = None,
         hosts: Union[str, Sequence[str]] = "http://localhost:8529"
